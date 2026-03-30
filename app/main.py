@@ -2,7 +2,6 @@ from __future__ import annotations
 from typing import Union, Any
 
 
-
 class Distance:
     def __init__(self, km: float) -> None:
         self.km = km
