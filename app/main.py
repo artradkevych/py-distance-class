@@ -31,7 +31,7 @@ class Distance:
             return Distance(self.km * other)
         raise TypeError("Unsupported type")
 
-    def __rmul__(self, other: Union[int, float]) -> "Distance":
+    def __rmul__(self, other: Union[int, float]) -> Distance:
         return self.__mul__(other)
 
     def __truediv__(self, other: Union[int, float]) -> Distance:
